@@ -33,7 +33,7 @@ const StudentsEnrolled = () => {
     if (isEducator) {
       fetchEnrolledStudents()
     }
-  }, [isEducator])
+  }, [isEducator,])
 
   return enrolledStudents ? (
     <div className="min-h-screen flex flex-col items-start justify-between md:p-8 md:pb-0 p-4 pt-8 pb-0">
